@@ -166,3 +166,16 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Mobile layout */
+@media screen and (max-width: 768px){
+	/* Show intro box vertically */
+	#intro-container{
+		flex-direction: column;
+	}
+	
+	/* Show contact box vertically */
+	#contact-me-container{
+		flex-direction: column;
+	}
+}
