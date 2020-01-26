@@ -79,10 +79,19 @@ header {
 }
 
 #block-shift-container{
-	background: #f2a6a0;
+	background: #82a6a0;
 	background-image: url("../images/block-game.jpg");
     background-repeat: no-repeat;
     background-position: center center;
+	background-size: 70%;
+}
+
+#airplane-container{
+	background: #f2a6a0;
+	background-image: url("../images/airplane-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-size: 70%;
 }
 
 #ashikhmin-shirley-container{
@@ -90,6 +99,7 @@ header {
 	background-image: url("../images/brdf-dragons.jpg");
     background-repeat: no-repeat;
     background-position: center center;
+	background-size: 70%;
 }
 
 #charge-container{
@@ -97,6 +107,7 @@ header {
 	background-image: url("../images/charge-game.jpg");
     background-repeat: no-repeat;
     background-position: center center;
+	background-size: 70%;
 }
 
 #jenga-container{
@@ -104,6 +115,7 @@ header {
 	background-image: url("../images/jenga-game.jpg");
     background-repeat: no-repeat;
     background-position: center center;
+	background-size: 70%;
 }
 
 #intro-container {

@@ -1,0 +1,104 @@
+body {
+    background-color: #08a2d5;
+    font-family: "Roboto", "Verdana", "Arial", sans-serif;
+    text-align: center;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #ffffff;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    height: 5%;
+    width: 100%;
+    background-color: #123a5e;
+    opacity: 0.75;
+    transition: opacity 0.5s ease;
+}
+
+nav:hover {
+    opacity: 1;
+}
+
+nav * {
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+nav a {
+    transition: color 0.5s ease;
+}
+
+nav a:hover {
+    color: #aad0f5;
+}
+
+header {
+    padding-top: 3%;
+    padding-bottom: 1%;
+	background-color: #80c2df
+}
+
+#intro-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    padding: 1%;
+}
+
+#intro-paragraph {
+    flex: 1 1 0;
+}
+
+#game-images img{
+	position: center center;
+	width: 80%;
+}
+
+#more-info {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.project-desc {
+    padding: 2%;
+}
+
+.project-desc p {
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.project-desc h2 {
+	text-shadow: 3px 3px 3px #000000;
+	color : #eeffee;
+}
+
+.project-btn {
+    border: 1px solid #ffffff;
+    padding: 5px;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+.project-btn:hover {
+    background-color: #aad0f5;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
