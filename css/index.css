@@ -1,0 +1,161 @@
+body {
+    background-color: #08a2d5;
+    font-family: "Roboto", "Verdana", "Arial", sans-serif;
+    text-align: center;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #ffffff;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    height: 8%;
+    width: 100%;
+    background-color: #123a5e;
+    opacity: 0.75;
+    transition: opacity 0.5s ease;
+}
+
+nav:hover {
+    opacity: 1;
+}
+
+nav * {
+    display: inline;
+    position: relative;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+nav a {
+    transition: color 0.5s ease;
+}
+
+nav a:hover {
+    color: #aad0f5;
+}
+
+header {
+    padding-top: 3%;
+    padding-bottom: 1%;
+	background-color: #80c2df
+}
+
+#projects-section {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.project-desc {
+    padding: 2%;
+}
+
+.project-desc p {
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.project-desc h2 {
+	text-shadow: 3px 3px 3px #000000;
+	color : #eeffee;
+}
+
+.project-btn {
+    border: 1px solid #ffffff;
+    padding: 5px;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+.project-btn:hover {
+    background-color: #aad0f5;
+}
+
+#block-shift-container{
+	background: #f2a6a0;
+	background-image: url("../images/block-game.jpg");
+    background-repeat: repeat;
+    background-position: left;
+}
+
+#ashikhmin-shirley-container{
+	background: #82a6a0;
+	background-image: url("../images/brdf-dragons.jpg");
+    background-repeat: repeat;
+    background-position: left;
+}
+
+#charge-container{
+	background: #f2a6a0;
+	background-image: url("../images/charge-game.jpg");
+    background-repeat: repeat;
+    background-position: left;
+}
+
+#intro-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    padding: 10%;
+}
+
+#intro-paragraph {
+    flex: 1 1 0;
+}
+
+#intro-image {
+    flex: 1 1 0;
+}
+
+#intro-image img {
+    border-radius: 20%;
+    display: block;
+    margin: auto;
+    max-width: 60%;
+    max-height: 60%;
+}
+
+#contact-me-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: space-around;
+}
+
+#contact-me-container a {
+    transition: color 0.5s ease;
+}
+
+#contact-me-container a:hover {
+    color: #aad0f5;
+}
+
+#contact-email {
+    flex: 1 1 0;
+}
+
+#contact-social {
+    flex: 1 1 0;
+}
+
+#contact-phone {
+    flex: 1 1 0;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
